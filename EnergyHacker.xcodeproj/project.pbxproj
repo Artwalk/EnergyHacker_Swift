@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E7C387419B3471C00597EB9 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C387319B3471C00597EB9 /* ProgressViewController.swift */; };
 		6E99E31019B2E83A00748301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99E30F19B2E83A00748301 /* AppDelegate.swift */; };
 		6E99E31219B2E83A00748301 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99E31119B2E83A00748301 /* MasterViewController.swift */; };
 		6E99E31419B2E83A00748301 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99E31319B2E83A00748301 /* DetailViewController.swift */; };
 		6E99E31719B2E83A00748301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E99E31519B2E83A00748301 /* Main.storyboard */; };
 		6E99E31919B2E83A00748301 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E99E31819B2E83A00748301 /* Images.xcassets */; };
 		6E99E32519B2E83A00748301 /* EnergyHackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99E32419B2E83A00748301 /* EnergyHackerTests.swift */; };
+		6E99E33519B2F0C800748301 /* EnergyDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99E33419B2F0C800748301 /* EnergyDataManager.swift */; };
+		6E99E33719B2F4FB00748301 /* EnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99E33619B2F4FB00748301 /* EnergyViewController.swift */; };
+		6E99E33A19B32FAF00748301 /* ChargeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99E33919B32FAF00748301 /* ChargeTableViewController.swift */; };
+		6E99E33C19B3338100748301 /* ChargeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99E33B19B3338100748301 /* ChargeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E7C387319B3471C00597EB9 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		6E99E30A19B2E83A00748301 /* EnergyHacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnergyHacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E99E30E19B2E83A00748301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E99E30F19B2E83A00748301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,11 @@
 		6E99E31E19B2E83A00748301 /* EnergyHackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnergyHackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E99E32319B2E83A00748301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E99E32419B2E83A00748301 /* EnergyHackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyHackerTests.swift; sourceTree = "<group>"; };
+		6E99E33419B2F0C800748301 /* EnergyDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyDataManager.swift; sourceTree = "<group>"; };
+		6E99E33619B2F4FB00748301 /* EnergyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyViewController.swift; sourceTree = "<group>"; };
+		6E99E33819B30F0B00748301 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
+		6E99E33919B32FAF00748301 /* ChargeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeTableViewController.swift; sourceTree = "<group>"; };
+		6E99E33B19B3338100748301 /* ChargeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 		6E99E30119B2E83A00748301 = {
 			isa = PBXGroup;
 			children = (
+				6E99E33819B30F0B00748301 /* test.playground */,
 				6E99E30C19B2E83A00748301 /* EnergyHacker */,
 				6E99E32119B2E83A00748301 /* EnergyHackerTests */,
 				6E99E30B19B2E83A00748301 /* Products */,
@@ -78,8 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				6E99E30F19B2E83A00748301 /* AppDelegate.swift */,
+				6E99E33619B2F4FB00748301 /* EnergyViewController.swift */,
 				6E99E31119B2E83A00748301 /* MasterViewController.swift */,
 				6E99E31319B2E83A00748301 /* DetailViewController.swift */,
+				6E99E33919B32FAF00748301 /* ChargeTableViewController.swift */,
+				6E7C387319B3471C00597EB9 /* ProgressViewController.swift */,
+				6E99E33B19B3338100748301 /* ChargeTableViewCell.swift */,
+				6E99E33419B2F0C800748301 /* EnergyDataManager.swift */,
 				6E99E31519B2E83A00748301 /* Main.storyboard */,
 				6E99E31819B2E83A00748301 /* Images.xcassets */,
 				6E99E30D19B2E83A00748301 /* Supporting Files */,
@@ -211,9 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E99E33C19B3338100748301 /* ChargeTableViewCell.swift in Sources */,
 				6E99E31419B2E83A00748301 /* DetailViewController.swift in Sources */,
 				6E99E31219B2E83A00748301 /* MasterViewController.swift in Sources */,
+				6E7C387419B3471C00597EB9 /* ProgressViewController.swift in Sources */,
 				6E99E31019B2E83A00748301 /* AppDelegate.swift in Sources */,
+				6E99E33519B2F0C800748301 /* EnergyDataManager.swift in Sources */,
+				6E99E33A19B32FAF00748301 /* ChargeTableViewController.swift in Sources */,
+				6E99E33719B2F4FB00748301 /* EnergyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EnergyHacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -341,6 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EnergyHacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -399,6 +423,7 @@
 				6E99E32A19B2E83A00748301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E99E32B19B2E83A00748301 /* Build configuration list for PBXNativeTarget "EnergyHackerTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +432,7 @@
 				6E99E32D19B2E83A00748301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
